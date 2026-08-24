@@ -119,9 +119,9 @@
 import { useState } from 'react'
 import PageHeader from '../components/PageHeader'
 
-// Set VITE_API_URL in frontend/.env — e.g. http://localhost:8000 in
-// development, or your deployed backend URL (Render/Railway/Fly) in production.
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+// Strips any trailing slash so "${API_URL}/api/contact" never
+// accidentally becomes a double slash like ".../api//contact"
+const API_URL = (import.meta.env.VITE_API_URL || 'http://localhost:8000').replace(/\/+$/, '')
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' })
