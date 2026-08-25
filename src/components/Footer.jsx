@@ -1,85 +1,7 @@
-// const SOCIALS = ['Instagram', 'Whatsapp', 'Twitter']
-// const SHOP_LINKS = ['Men', 'Women', 'New Arrivals', 'Sale']
-
-// export default function Footer() {
-//   return (
-//     <footer id="contact" className="bg-ink text-bone">
-//       <div className="max-w-[1400px] mx-auto px-6 md:px-10 py-16 md:py-20">
-//         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
-//           {/* Brand */}
-//           <div className="md:col-span-2">
-//             <a href="#home" className="font-display italic text-2xl tracking-wide">
-//               <span className="not-italic">ELVO</span>
-//             </a>
-//             <p className="mt-5 text-bone/60 text-sm leading-relaxed max-w-xs">
-//               A modern house of tailoring for men and women, built on honest
-//               materials and considered form.
-//             </p>
-//           </div>
-
-//           {/* Shop */}
-//           <div>
-//             <p className="text-[11px] font-semibold uppercase tracking-widest2 text-bone/50 mb-5">
-//               Shop
-//             </p>
-//             <ul className="space-y-3 text-sm text-bone/80">
-//               {SHOP_LINKS.map((link) => (
-//                 <li key={link}>
-//                   <a href={`#${link.toLowerCase().replace(' ', '-')}`} className="hover:text-bone transition-colors">
-//                     {link}
-//                   </a>
-//                 </li>
-//               ))}
-//             </ul>
-//           </div>
-
-//           {/* Contact */}
-//           <div>
-//             <p className="text-[11px] font-semibold uppercase tracking-widest2 text-bone/50 mb-5">
-//               Contact
-//             </p>
-//             <ul className="space-y-3 text-sm text-bone/80">
-//               <li>
-//                 <a href="mailto:elvoclothing99@gmail.com" className="hover:text-bone transition-colors">
-//                   elvo4949@gmail.com
-//                 </a>
-//               </li>
-//               <li>
-//                 <a href="tel:+91 9790890797" className="hover:text-bone transition-colors">
-//                   +91 9790890797
-//                 </a>
-//               </li>
-//               <li className="text-bone/60">No 114, Yelankha, Banglore - 560063</li>
-//             </ul>
-//           </div>
-//         </div>
-
-//         <div className="hairline mt-14 mb-8 opacity-30" />
-
-//         <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-6">
-//           <p className="text-bone/40 text-xs">
-//             © {new Date().getFullYear()} Elvo. All rights reserved.
-//           </p>
-//           <ul className="flex items-center gap-7 text-[11px] font-semibold uppercase tracking-widest2">
-//             {SOCIALS.map((social) => (
-//               <li key={social}>
-//                 <a href="#" className="text-bone/70 hover:text-bone transition-colors">
-//                   {social}
-//                 </a>
-//               </li>
-//             ))}
-//           </ul>
-//         </div>
-//       </div>
-//     </footer>
-//   )
-// }
-
-
 import { Link } from 'react-router-dom'
 
 const SHOP_LINKS = [
-  { label: 'Men', to: '/men' },
+  // { label: 'Men', to: '/men' },
   { label: 'Women', to: '/women' },
   { label: 'New Arrivals', to: '/new-arrivals' },
   { label: 'Sale', to: '/sale' },
@@ -127,7 +49,7 @@ export default function Footer() {
               <span className="not-italic">ELVO</span>
             </Link>
             <p className="mt-5 text-bone/60 text-sm leading-relaxed max-w-xs">
-              A modern house of tailoring for men and women, built on honest
+              A modern house of tailoring for women, built on honest
               materials and considered form.
             </p>
           </div>

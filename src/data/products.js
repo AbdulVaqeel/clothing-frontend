@@ -3,17 +3,17 @@
 const products = [
   {
     id: 'm-01',
-    name: 'Wool Overcoat',
+    name: 'Printed Black Top',
     price: 289,
-    category: 'men',
+    category: 'Women',
     tags: ['new'],
-    image: 'https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1511130558090-00af810c21b1?q=80&w=689&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     id: 'm-02',
     name: 'Merino Crewneck',
     price: 95,
-    category: 'men',
+    category: 'Women',
     tags: ['sale'],
     image: 'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=800&q=80',
   },

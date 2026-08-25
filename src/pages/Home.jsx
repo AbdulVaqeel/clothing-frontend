@@ -7,12 +7,12 @@ export default function Home() {
       <Hero />
 
       <CollectionSection
-        eyebrow="For Men"
+        eyebrow="For Women"
         title="Tailoring, reconsidered"
         copy="Structured outerwear, relaxed knitwear, and trousers cut to move — a modern wardrobe built on quiet precision."
-        image="https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=1200&q=80"
+        image="https://images.unsplash.com/photo-1511130558090-00af810c21b1?q=80&w=689&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         imageAlt="Man wearing a tailored neutral-toned coat and trousers"
-        to="/men"
+        to="/women"
       />
 
       <div className="max-w-[1400px] mx-auto px-6 md:px-10">
